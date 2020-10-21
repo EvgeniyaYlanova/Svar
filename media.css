@@ -1,0 +1,618 @@
+ @media(min-width:320px) and (max-width:767px) {
+     body {
+         width: 100%;
+     }
+
+     section {
+         width: 100%;
+         overflow-x: hidden;
+     }
+
+     .container {
+         width: 100%;
+     }
+
+     h2 {
+         font-size: 30px;
+         padding-top: 22px;
+     }
+
+     /* ----------------------------------sec 1 header*/
+     .header {
+         display: block;
+         position: static;
+         height: auto;
+         padding-top: 10px;
+     }
+
+     .tel {
+         font-size: 19px;
+         margin-left: 16px;
+     }
+
+     .menu {
+         margin-left: 0;
+     }
+
+     .menu-min {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding-bottom: 10px;
+     }
+
+     .menu-min img {
+         margin-right: 20px;
+     }
+
+     .menu-text {
+         color: black;
+         font-size: 25px;
+     }
+
+     .phone {
+         margin-bottom: 20px;
+     }
+
+     .menu ul {
+         display: none;
+     }
+
+     .menu ul li {
+         padding-bottom: 10px;
+         padding-left: 20px;
+     }
+
+     .dws-menu label.tooggleMenu {
+         display: block;
+     }
+
+     input.tooggleMenu:checked ~ ul {
+         display: block;
+     }
+
+     /* ----------------------------------sec 2 slider*/
+
+     .slider {
+         padding-top: 0;
+     }
+
+     .text1 {
+         top: 26%;
+         right: 12%;
+     }
+
+     .slideText {
+         font-size: 27px;
+     }
+
+     .text2 {
+         top: 79%;
+         right: 4%;
+         color: white;
+         font-size: 20px;
+     }
+
+     .text3 {
+         bottom: 6.5%;
+         left: 5%;
+         font-size: 24px;
+     }
+
+     .slider .prev,
+     .slider .next {
+         padding: 10px;
+         font-size: 16px;
+     }
+
+     /* ----------------------------------sec 3 services*/
+
+     .services {
+         padding-bottom: 41px;
+     }
+
+     .services_title {
+         margin-bottom: 22px;
+         font-size: 26px;
+     }
+
+     .services_text_left {
+         font-size: 24px;
+         padding-top: 14px;
+         margin-left: 8px;
+     }
+
+     .services_subtitle {
+         margin-bottom: 13px;
+     }
+
+     .services_subtitle a:first-child {
+         color: black;
+         font-size: 24px
+     }
+
+     .services_text {
+         width: 92%;
+         height: 473px;
+     }
+
+     .services_text_left nav ul li:not(:nth-child(1)) {
+         margin-bottom: 4px;
+     }
+
+     .services_text:before {
+         bottom: 3%;
+         right: 5%;
+         height: 157px;
+         font-size: 24px;
+         padding-right: 10px;
+         padding-top: 5px;
+         padding-left: 12px;
+     }
+
+     /* ----------------------------------sec 4 plus*/
+
+     .plus-text {
+         padding-right: 15px;
+     }
+
+     .plus-text-sub {
+         font-size: 20px;
+         margin-left: 19px;
+         margin-bottom: 16px;
+         line-height: 25px;
+     }
+
+     /* ----------------------------------sec 5 gallery*/
+     .gallery {
+         min-height: auto;
+         padding-bottom: 96%;
+     }
+
+     .gallery-title {
+         padding-bottom: 67px;
+     }
+
+     .gallery-parent {
+         display: none;
+     }
+
+     .slide input + label {
+         width: 4.5%;
+         height: 12px;
+         border-radius: 4px;
+         margin-right: 1%;
+         top: -42px;
+     }
+
+     .slider2-img {
+         width: 96%;
+         margin-top: 10px;
+     }
+
+     .slider2-img-3 {
+         width: 70%;
+     }
+
+     /* ----------------------------------sec 6 aboutMe*/
+
+     .aboutMe {
+         padding-bottom: 34px;
+     }
+
+     .aboutMe-title {
+         margin-bottom: -15px;
+     }
+
+     .aboutMe-content {
+         display: block;
+     }
+
+     .aboutMe-foto {
+         margin: 30px 0 33px;
+         display: flex;
+         justify-content: center;
+     }
+
+     .aboutMe-foto img {
+         width: 317px;
+     }
+
+     .img-up {
+         width: 65%;
+         margin-bottom: 14px;
+         padding-right: 0px;
+         margin-left: 18.5%
+     }
+
+     .img-down {
+         width: 65%;
+         margin-bottom: 14px;
+         padding-right: 0px;
+         margin-left: 18.5%;
+         margin-top: 23px;
+     }
+
+     .aboutMe-text ul li {
+         font-size: 18px;
+         margin-bottom: 13px;
+         padding-right: 8px;
+         padding-left: 13px;
+         text-align: center;
+     }
+
+     /* ----------------------------------sec 7 contacts*/
+
+     .contacts-title {
+         margin-bottom: 27px;
+     }
+
+     .contacts a,
+     .contacts-text {
+         font-size: 24px;
+         margin-left: 5px;
+         margin-bottom: 13px;
+     }
+
+     .contacts-tel {
+         display: flex;
+         flex-direction: column;
+         flex-wrap: nowrap;
+     }
+
+
+     .messenger {
+         padding-top: 0px;
+         margin-left: 24px;
+         width: 30px;
+         margin-bottom: 13px;
+     }
+
+     .contacts-text {
+         margin-bottom: 250px;
+         padding-right: 0px;
+     }
+
+     .contacts:before {
+         right: 0;
+     }
+
+
+
+ }
+
+ /*  .........//////////......320.......//////////////..............*/
+
+ @media(min-width:768px) and (max-width:991px) {
+
+     body {
+         width: 100%;
+     }
+
+     section {
+         width: 100%;
+         overflow-x: hidden;
+     }
+
+     .container {
+         width: 100%;
+     }
+
+     h2 {
+         font-size: 50px;
+         padding-top: 30px;
+     }
+
+     /* --------------------------------------sec 1 header*/
+
+     .header {
+         display: block;
+         height: auto;
+         position: static;
+         padding-top: 10px;
+         padding-bottom: 10px;
+     }
+
+     .phone {
+         margin-left: 40px;
+         margin-bottom: 20px;
+     }
+
+     .menu {
+         margin-left: 5%;
+     }
+
+     /* ----------------------------------sec 2 slider*/
+     .slider {
+         padding-top: 0;
+     }
+
+     .slider .item img {
+         height: 436px;
+     }
+
+     .text1 {
+         top: 2%;
+         right: 3%;
+         font-size: 33px;
+     }
+
+     .text2 {
+         top: 90%;
+         right: 2%;
+         color: white;
+         font-size: 35px;
+     }
+
+     .text3 {
+         bottom: 87%;
+         right: 4%;
+         color: #ffffff;
+         font-size: 45px;
+     }
+
+     /* ----------------------------------sec 3 services*/
+
+     .services {
+         padding-bottom: 50px;
+     }
+
+     .services_title {
+         margin-bottom: 30px;
+         font-size: 49px;
+     }
+
+     .services_text {
+         height: 291px;
+     }
+
+     .services_text_left {
+         font-size: 25px;
+         padding-top: 20px;
+     }
+
+     .services_text:before {
+         bottom: 9%;
+         right: 231px;
+         width: 248px;
+         height: 186px;
+         font-size: 25px;
+         padding-left: 25px;
+     }
+
+     /* ----------------------------------sec 4 plus*/
+
+     .plus-text {
+         opacity: 51%;
+     }
+
+     .plus-text-sub {
+         font-size: 26px;
+         margin-left: 32px;
+         margin-bottom: 21px;
+     }
+
+     /* ----------------------------------sec 5 gallery*/
+
+     .gallery {
+         min-height: auto;
+         padding-bottom: 63%;
+     }
+
+     .gallery-parent {
+         grid-column-gap: 0;
+         grid-row-gap: 0;
+     }
+
+     .gallery-foto {
+         width: 100%;
+     }
+
+     .gallery-foto-text {
+         font-size: 22px;
+         color: white;
+         padding-top: 29px;
+         height: 34%;
+     }
+
+     /* ----------------------------------sec 6 aboutMe*/
+
+     .aboutMe {
+         padding-bottom: 66px;
+     }
+
+     .aboutMe-foto {
+         width: 50%;
+     }
+
+     .aboutMe-foto img {
+         width: 90%;
+     }
+
+     .aboutMe-text {
+         width: 50%;
+     }
+
+     .img-up {
+         width: 94%;
+         margin-bottom: 18px;
+         padding-right: 0px;
+         margin-left: 0px;
+     }
+
+     .aboutMe-text ul li {
+         font-size: 18px;
+         margin-bottom: 12px;
+         padding-right: 21px;
+         padding-left: 20px;
+     }
+
+     .img-down {
+         width: 94%;
+         margin-top: 18px;
+         padding-right: 0px;
+         margin-left: 0px;
+     }
+
+     /* ----------------------------------sec 7 contacts*/
+
+     .contacts a,
+     .contacts-text {
+         font-size: 30px;
+         margin-left: 38px;
+         margin-bottom: 17px;
+     }
+
+     .contacts-text {
+         margin-bottom: 113px;
+         padding-right: 287px;
+     }
+
+     .contacts:before {
+         right: 0;
+     }
+
+ }
+
+ /*................991....................*/
+
+ @media(min-width:992px) and (max-width:1139px) {
+
+     body {
+         width: 100%;
+     }
+
+     section {
+         width: 100%;
+         overflow-x: hidden;
+     }
+
+     .container {
+         width: 100%;
+     }
+
+     h2 {
+         font-size: 50px;
+     }
+
+     /* ----------------------------------sec 1 header*/
+
+     .header {
+         display: block;
+         height: auto;
+         padding-top: 10px;
+         padding-bottom: 10px;
+     }
+
+     .phone {
+         margin-left: 54px;
+         margin-bottom: 20px;
+     }
+
+     .menu {
+         margin-left: 0;
+     }
+
+     .ul {
+         justify-content: center;
+     }
+
+     /* ----------------------------------sec 2 slider*/
+
+     .slider {
+         padding-top: 90px;
+     }
+
+     .text2 {
+         top: 70%;
+         right: 33%;
+         color: #ffffff;
+         font-size: 44px;
+     }
+
+     .text3 {
+         bottom: 31.5%;
+         right: 22%;
+         color: #ffffff;
+         font-size: 48px;
+     }
+
+     /* ----------------------------------sec 3 services*/
+
+     .services {
+         padding-bottom: 73px;
+     }
+
+     .services_title {
+         margin-bottom: 36px;
+         font-size: 50px;
+     }
+
+     /* ----------------------------------sec 4 gallery*/
+
+     .gallery {
+         min-height: auto;
+         padding-bottom: 65%;
+     }
+
+     /* ----------------------------------sec 6 aboutMe*/
+
+     .aboutMe {
+         padding-bottom: 66px;
+     }
+
+     .aboutMe-foto {
+         width: 100%;
+         margin-top: 32px;
+         margin-right: 0px;
+         margin-left: 92px;
+     }
+
+     .aboutMe-foto img {
+         width: 75%;
+     }
+
+     .aboutMe-text {
+         width: 113%;
+     }
+
+     .img-up {
+         width: 81%;
+         margin-bottom: 18px;
+         padding-right: 0px;
+         margin-left: 15px;
+     }
+
+     .aboutMe-text ul li {
+         font-size: 20px;
+         margin-bottom: 10px;
+         padding-right: 91px;
+         padding-left: 34px;
+     }
+
+     .img-down {
+         width: 81%;
+         margin-top: 18px;
+         padding-right: 0px;
+         margin-left: 15px;
+     }
+
+     .contacts a,
+     .contacts-text {
+         display: inline-block;
+         font-size: 35px;
+         line-height: 1.2;
+         font-weight: 400;
+         color: #ffffff;
+         margin-left: 42px;
+         margin-bottom: 20px;
+     }
+
+     .contacts-text {
+         margin-bottom: 108px;
+         padding-right: 289px;
+     }
+
+ }
+
+ /*................1139....................*/

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сваркв СПб и Ло</title>
+               <!--  Favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/bg/icon-0.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/bg/icon-0.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/bg/icon-0.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/bg/icon-0.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/bg/icon-0.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/bg/icon-0.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/bg/icon-0.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/bg/icon-0.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/bg/icon-0.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="img/bg/icon-0.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/bg/icon-0.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/bg/icon-0.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/bg/icon-0.ico/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+                 <!-- / Favicon  -->
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&family=Spectral:ital,wght@0,300;0,400;0,700;1,200;1,300;1,400;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!--       SEC-1 header -->
+
+        <section class="sec1">
+            <div class="container">
+                <div class="header">
+
+                    <div class="phone">
+                        <img class="phone-img" src="img/bg/tel.png" alt="">
+
+                        <a href="#" class="tel">8-(952)-268-83-75 Семен</a>
+                    </div>
+
+                    <div class="menu">
+                        <nav class="dws-menu">
+
+                            <input type="checkbox" name="tooggle" id="menu" class="tooggleMenu">
+                            <label for="menu" class="tooggleMenu">
+
+                                <div class="menu-min">
+                                    <img src="img/bg/menu.png" alt="">
+                                    <p class="menu-text">Меню</p>
+                                </div>
+
+                            </label>
+
+                            <ul class="ul">
+                                <li><a href="#slider">Главная</a></li>
+                                <li><a href="#services">Услуги</a></li>
+                                <li><a href="#plus">Приемущества</a></li>
+                                <li><a href="#gallery">Фотогоалерея</a></li>
+                                <li><a href="#aboutMe">Обо мне</a></li>
+                                <li><a href="#contacts">Контакты</a></li>
+                            </ul>
+
+                        </nav>
+                    </div>
+
+                </div>
+
+            </div>
+        </section> <!--      / SEC-1 header -->
+
+        <!--       SEC-2 bg -->
+        <section class="sec2">
+            <div class="container">
+                <div class="slider" id="slider">
+                    <div class="item">
+                        <img width="100%" src="img/bg/s_1.jpg" alt="Первый слайд">
+                        <div class="slideText text1">Сварочные работы</div>
+                    </div>
+
+                    <div class="item">
+                        <img width="100%" src="img/bg/s_2.jpg" alt="Второй слайд">
+                        <div class="slideText text2">Мои цены вас приятно удивят</div>
+                    </div>
+
+                    <div class="item">
+                        <img width="100%" src="img/bg/s_3.jpg" alt="Третий слайд">
+                        <div class="slideText text3">Работа с металлом любимое дело</div>
+                    </div>
+
+                    <a class="prev" onclick="minusSlide()">&#10094;</a>
+                    <a class="next" onclick="plusSlide()">&#10095;</a>
+                </div>
+
+            </div>
+
+        </section> <!--   /    SEC-2 bg -->
+
+        <!--       SEC-3 bg -->
+        <section class="sec3">
+            <div class="container">
+                <div class="services" id="services">
+                    <h2 class="services_title">Различный спектр услуг</h2>
+                    <div class="services_text">
+                        <div class="services_text_left">
+
+                            <nav>
+                                <ul>
+                                    <li class="services_subtitle"><a href="#">Сварка, сборка и монтаж металлоконструкций.</a></li>
+                                    <li><a href="#">Изготовление ворот</a></li>
+                                    <li><a href="#">Изготовление мебели </a></li>
+                                    <li><a href="#">Изготовление заборов</a></li>
+                                    <li><a href="#">Изготовление решеток на окна</a></li>
+                                    <li><a href="#">Изготовление лестниц, перил, навесов</a></li>
+                                    <li><a href="#">И многое другое</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!--
+                    <div class="services_text_right">
+                        + стройка металического каркаса с обшивкой (под ключ)  ваших технических построек
+                    </div>
+-->
+                    </div>
+                </div>
+            </div>
+        </section> <!--     /  SEC-3 bg -->
+
+        <!--       SEC-4 plus -->
+        <section class="sec4">
+            <div class="container">
+                <div class="plus" id="plus">
+                    <h2 class="plus-title">Преимущества</h2>
+
+                    <div class="plus-text">
+
+                        <p class="plus-text-sub"><span>Работаю сам на себя,</span> вам не придется доплачивать за лишние услуги менеджеров и не только<span>( НЕ ДОРОГО )</span>.</p>
+
+                        <p class="plus-text-sub"><span>Работал во многих сферах строительства, </span>всегда найдем выход из разных затруднительных ситуаций .</p>
+
+                        <p class="plus-text-sub"><span>Качественно и красиво.</span> Моя работа- мое хобби, поэтому главный критик моей работы это я.</p>
+
+                        <p class="plus-text-sub"><span>Работаю практически со всеми материалами</span>( металл , пластик , дерево)<span> так же могу помочь со многими другими работами .</span></p>
+
+                    </div>
+                </div>
+            </div>
+        </section> <!--    /   SEC-4 plus -->
+
+        <!--       SEC-5 gallery -->
+
+        <section class="sec5">
+            <div class="container">
+                <div class="gallery" id="gallery">
+                    <h2 class="gallery-title">Фотогалерея моих работ</h2>
+
+
+                    <div class="gallery-parent">
+
+                        <div class="div1 foto">
+                            <img src="img/sec4-photo/images/f_1.jpg" class="gallery-foto" alt="">
+
+                            <div class="gallery-foto-text">
+                                <p>Левитируемый стол</p>
+                            </div>
+                        </div>
+
+
+
+                        <div class="div2 foto">
+                            <img src="img/sec4-photo/images/f_2.jpg" class="gallery-foto" alt="">
+
+                            <div class="gallery-foto-text">
+                                <p>Театральные декорации</p>
+                            </div>
+                        </div>
+
+                        <div class="div3 foto">
+                            <img src="img/sec4-photo/images/f_3.jpg" class="gallery-foto" alt="">
+
+                            <div class="gallery-foto-text">
+                                <p>Шкаф электромонтажника</p>
+                            </div>
+                        </div>
+
+                        <div class="div4 foto">
+                            <img src="img/sec4-photo/images/f_4.jpg" class="gallery-foto" alt="">
+
+                            <div class="gallery-foto-text">
+                                <p>Ворота</p>
+                            </div>
+                        </div>
+
+                        <div class="div5 foto">
+                            <img src="img/sec4-photo/images/f_5.jpg" class="gallery-foto" alt="">
+
+                            <div class="gallery-foto-text">
+                                <p>Стол электромонтажника</p>
+                            </div>
+                        </div>
+
+                        <div class="div6 foto">
+                            <img src="img/sec4-photo/images/f_6.jpg" class="gallery-foto" alt="">
+
+                            <div class="gallery-foto-text">
+                                <p>Двери</p>
+                            </div>
+                        </div>
+
+                        <div class="div7 foto">
+                            <img src="img/sec4-photo/images/f_7.jpg" class="gallery-foto" alt="">
+
+                            <div class="gallery-foto-text">
+                                <p>Театральные декорации</p>
+                            </div>
+                        </div>
+
+                        <div class="div8 foto">
+                            <img src="img/sec4-photo/images/f_8.jpg" class="gallery-foto" alt="">
+
+                            <div class="gallery-foto-text">
+                                <p>Перила</p>
+                            </div>
+                        </div>
+
+                        <div class="div9 foto">
+                            <img src="img/sec4-photo/images/f_9.jpg" class="gallery-foto" alt="">
+
+                            <div class="gallery-foto-text">
+                                <p>Козырек</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--  gallery-slider -->
+                    <div class="slide">
+
+                        <input type="radio" name="slider2" id="slider2_1" checked="checked">
+                        <label for="slider2_1"></label>
+                        <div>
+                            <img src="img/sec4-photo/f1.jpg" class="slider2-img">
+                        </div>
+
+                        <label for="slider2_2"></label>
+                        <input type="radio" name="slider2" id="slider2_2">
+                        <label for="slider2_2"></label>
+                        <div>
+                            <img src="img/sec4-photo/f2.jpg" class="slider2-img">
+                        </div>
+
+                        <label for="slider2_3"></label>
+                        <input type="radio" name="slider2" id="slider2_3">
+                        <label for="slider2_3"></label>
+                        <div>
+                            <img src="img/sec4-photo/f3.jpg" class="slider2-img slider2-img-3"></div>
+
+                        <label for="slider2_4"></label>
+                        <input type="radio" name="slider2" id="slider2_4">
+                        <label for="slider2_4"></label>
+                        <div>
+                            <img src="img/sec4-photo/f4.jpg" class="slider2-img"></div>
+
+                        <label for="slider2_5"></label>
+                        <input type="radio" name="slider2" id="slider2_5">
+                        <label for="slider2_5"></label>
+                        <div>
+                            <img src="img/sec4-photo/f5.jpg" class="slider2-img slider2-img-3"></div>
+
+                        <label for="slider2_6"></label>
+                        <input type="radio" name="slider2" id="slider2_6">
+                        <label for="slider2_6"></label>
+                        <div>
+                            <img src="img/sec4-photo/f6.jpg" class="slider2-img slider2-img-3"></div>
+
+                        <label for="slider2_7"></label>
+                        <input type="radio" name="slider2" id="slider2_7">
+                        <label for="slider2_7"></label>
+                        <div>
+                            <img src="img/sec4-photo/f7.jpg" class="slider2-img"></div>
+
+                        <label for="slider2_8"></label>
+                        <input type="radio" name="slider2" id="slider2_8">
+                        <label for="slider2_8"></label>
+                        <div>
+                            <img src="img/sec4-photo/f8.jpg" class="slider2-img"></div>
+
+                        <label for="slider2_9"></label>
+                        <input type="radio" name="slider2" id="slider2_9">
+                        <label for="slider2_9"></label>
+                        <div>
+                            <img src="img/sec4-photo/f9.jpg" class="slider2-img slider2-img-3"></div>
+
+                        <label for="slider2_10"></label>
+                        <input type="radio" name="slider2" id="slider2_10">
+                        <label for="slider2_10"></label>
+                        <div>
+                            <img src="img/sec4-photo/f10.jpg" class="slider2-img"></div>
+
+                        <label for="slider2_11"></label>
+                        <input type="radio" name="slider2" id="slider2_11">
+                        <label for="slider2_11"></label>
+                        <div>
+                            <img src="img/sec4-photo/f11.jpg" class="slider2-img"></div>
+
+                        <label for="slider2_12"></label>
+                        <input type="radio" name="slider2" id="slider2_12">
+                        <label for="slider2_12"></label>
+                        <div>
+                            <img src="img/sec4-photo/f12.jpg" class="slider2-img slider2-img-3"></div>
+
+                        <label for="slider2_13"></label>
+                        <input type="radio" name="slider2" id="slider2_13">
+                        <label for="slider2_13"></label>
+                        <div>
+                            <img src="img/sec4-photo/f13.jpg" class="slider2-img slider2-img-3"></div>
+
+                        <label for="slider2_14"></label>
+                        <input type="radio" name="slider2" id="slider2_14">
+                        <label for="slider2_14"></label>
+                        <div>
+                            <img src="img/sec4-photo/f14.jpg" class="slider2-img"></div>
+                    </div>
+                </div>
+            </div>
+        </section> <!--    /   SEC-5 gallery -->
+
+        <!--       SEC-6   About Me-->
+
+        <section class="sec6">
+            <div class="container">
+
+                <div class="aboutMe" id="aboutMe">
+                    <div class="aboutMe-up">
+                        <h2 class="aboutMe-title">Немного о себе</h2>
+                    </div>
+
+                    <div class="aboutMe-content">
+                        <div class="aboutMe-foto">
+                            <img src="img/sec5/foto.jpg" alt="">
+                        </div>
+
+                        <div class="aboutMe-text">
+                            <img src="img/sec5/up.png" alt="" class="img-up">
+                            <ul>
+                                <li>
+                                    Занимаюсь сваркой более 5 лет .</li>
+
+                                <li>Работа со всеми видами инструментов (болгарка, шуруповерт, электролобзик, дрель, ленточная пила и т.д.) .</li>
+
+                                <li>Покраска готовых изделий (есть диплом и опыт работы в покраске)
+                                </li>
+                                <li>Есть знание чертяжей (читаю + могу помочь с расчетами).</li>
+                                <li>Умения варить как электродуговой сваркой , так и полуавтоматом , аргоном , газом (варить и резать).</li>
+                                <li>Установка доп.оборудования (замки/петли, вентиляция, электрика).</li>
+                                <li>Фрезеровка деталей из древесины.</li>
+                                <li>В данный момент работаю сварщиком в Военно-космическая академия имени А.Ф.Можайского.</li>
+                            </ul>
+
+                            <img src="img/sec5/down.png" alt="" class="img-down">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!--     /  SEC-6   About Me-->
+
+        <!--       SEC-7   contacts-->
+
+        <section class="sec7">
+            <div class="container">
+                <div class="contacts" id="contacts">
+                    <h2 class="contacts-title">Контакты</h2>
+
+                    <div class="contacts-tel">
+                        <a href="tel:+79500127090" class="phonenumb">Телефон : 8-950-012-70-90 ;</a>
+                        <img src="img/sec6/vib.png" alt="" class="messenger">
+                        <img src="img/sec6/wats.png" alt="" class="messenger wats">
+                    </div>
+
+                    <a href="mailto:">Email : antonius.21102008@inbox.ru;</a>
+
+                    <p class="contacts-text">Прием заявок по телефону ежедневно
+                        без выходных c 10:00 до 20:00.</p>
+
+                </div>
+            </div>
+        </section> <!--     /  SEC-7   contacts-->
+
+
+
+    </div><!--      / wrapper -->
+    <script src="JS.js"></script>
+</body></html>

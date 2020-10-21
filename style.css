@@ -1,0 +1,581 @@
+body {
+    font-family: 'Spectral', serif;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 40px;
+    text-align: center;
+}
+
+
+
+/*.........................................SEC-1 header*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1140px;
+    height: 77px;
+    background-color: #dddddd;
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    margin-left: 23px;
+}
+
+.tel {
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    color: #2f1202;
+    margin-left: 15px;
+}
+
+.tel:hover {
+    color: brown;
+}
+
+/*menu*/
+.menu {
+    margin-left: 10%;
+}
+
+.dws-menu [type="checkbox"]{
+    display: none;
+}
+
+.dws-menu label.tooggleMenu{
+    display: none;
+}
+
+.ul {
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+.ul li {
+    margin-right: 26px;
+}
+
+.ul li a {
+    color: #000000;
+}
+
+.ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/*.........................................SEC-2 slider*/
+
+/* Собственно сам слайдер */
+.slider {
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 130px;
+    padding-top: 77px;
+    margin: auto;
+}
+
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Кнопки вперед и назад */
+.slider .prev,
+.slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* При наведении на кнопки добавляем фон кнопок */
+
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    /*    transform: translate(-50%, -50%);*/
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.text1 {
+    top: 29%;
+    right: 3%;
+    color: #ffffff;
+}
+
+.text2 {
+    top: 4%;
+    right: 4%;
+    color: #000000;
+}
+
+.text3 {
+    bottom: 0.5%;
+    right: 1%;
+    color: #ffffff;
+}
+
+/* Анимация слайдов */
+
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* ....................................sec 3 services*/
+.services {
+    background-color: #2f1202;
+    padding-bottom: 97px;
+}
+
+.services_title {
+    margin-bottom: 53px;
+    font-size: 60px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.services_text {
+    width: 980px;
+    height: 380px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.services_text:before {
+    content: '+ стройка металического каркаса с обшивкой (под ключ)  ваших технических построек';
+    position: absolute;
+    bottom: 10%;
+    right: 51px;
+    width: 264px;
+    height: 232px;
+    background-color: #2f1202;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 300;
+    font-style: italic;
+    color: #ffffff;
+    padding-left: 7px;
+
+}
+
+.services_text_left {
+    font-size: 32px;
+    font-weight: 400;
+    color: #0f1575;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+
+.services_subtitle {
+    margin-bottom: 28px;
+}
+
+.services_text_left nav ul li:not(:nth-child(1)) {
+    margin-bottom: 8px;
+}
+
+.services_text_left nav ul li a {
+    color: #0f1575;
+}
+
+.services_text_left nav ul li a:hover {
+    color: darkred;
+    text-decoration: underline;
+    font-style: italic;
+    cursor: default;
+}
+
+/*.................................................sec 4 */
+
+.plus {
+    background: url(img/sec3/bg_3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 44px;
+}
+
+.plus-title {
+    margin-bottom: 27px;
+    font-weight: 400;
+}
+
+.plus-text {
+    background-color: #ffffff;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 11px;
+    opacity: 43%;
+    padding-right: 31px;
+}
+
+.plus-text-sub {
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 18px;
+    margin-bottom: 38px;
+}
+
+.plus-text-sub span {
+    font-weight: 700;
+}
+
+.plus-text-sub:last-child {
+    padding-bottom: 21px;
+    margin-bottom: 0;
+}
+
+/*  ..................................... SEC 5 gallery*/
+
+.gallery {
+    background-color: #45314d;
+    min-height: 2070px;
+}
+
+.gallery-title {
+    font-weight: 400;
+    color: #291531;
+    padding-bottom: 44px;
+}
+
+/*grid*/
+
+.gallery-parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 9px;
+    grid-row-gap: 8px;
+    background-color: #45314d;
+    padding-bottom: 40px;
+}
+
+.foto:hover .gallery-foto-text {
+    display: block;
+    background: rgba(69, 49, 77, .7);
+    cursor: pointer;
+    opacity: 100%;
+    transition: .7s;
+
+}
+
+.foto {
+    position: relative;
+}
+
+.gallery-foto-text {
+    opacity: 0;
+    /*     display: none;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 27px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.div2 {
+    grid-area: 1 / 3 / 3 / 5;
+}
+
+.div3 {
+    grid-area: 1 / 5 / 3 / 7;
+}
+
+.div4 {
+    grid-area: 3 / 1 / 5 / 3;
+}
+
+.div5 {
+    grid-area: 3 / 3 / 5 / 5;
+}
+
+.div6 {
+    grid-area: 3 / 5 / 5 / 7;
+}
+
+.div7 {
+    grid-area: 5 / 1 / 7 / 3;
+}
+
+.div8 {
+    grid-area: 5 / 3 / 7 / 5;
+}
+
+.div9 {
+    grid-area: 5 / 5 / 7 / 7;
+}
+
+/*gallery-slider*/
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.slide input {
+    display: none;
+}
+
+.slide input + label {
+    display: inline-block;
+    width: 2.5%;
+    height: 9px;
+    border-radius: 8px;
+    background: rgba(69, 49, 71, 0.8);
+    border: 2px solid rgba(161, 32, 213, 0.8);
+
+    cursor: pointer;
+
+    z-index: 100;
+    position: relative;
+
+    margin-right: 0.2%;
+    top: 90%;
+
+    transition: background 0.8s ease-out 0s;
+}
+
+.slide input + label:hover {
+    background: rgba(250, 250, 250, 0.8);
+}
+
+.slide input:checked + label {
+    background: rgba(220, 220, 220, 0.8);
+}
+
+.slide div {
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+}
+
+.slide div {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+}
+
+.slider2-img {
+    width: 85%;
+    height: auto;
+}
+
+.slider2-img-3 {
+    width: 47%;
+    height: auto;
+}
+
+.slide input:checked + label + div {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+}
+
+/*...............................................sec6 aboutMe*/
+
+.aboutMe{
+    background-color: #d1d1d1;
+    padding-bottom: 160px;
+}
+
+.aboutMe-title{
+    font-weight: 400;
+    color: #0f1575;
+    margin-bottom: 30px;
+}
+
+.aboutMe-content{
+    display:flex;
+}
+
+.aboutMe-foto{
+    width: 100%;
+    margin-top: 32px;
+    margin-right: 38px;
+    margin-left: 14px;
+}
+
+.aboutMe-text ul li{
+    font-size: 23px;
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+    margin-bottom: 24px;
+    padding-right: 53px;
+    padding-left:20px;
+}
+
+.aboutMe-text ul li:last-child{
+    margin-bottom: 0;
+    padding-right: 70px;
+}
+
+.img-up{
+    width: 100%;
+    margin-bottom: 63px;
+    padding-right:20px;
+}
+
+.img-down{
+    width: 100%;
+    margin-top: 63px;
+    padding-right:20px;
+}
+
+/*.............................................. sec 7 contacts*/
+
+.contacts{
+    background-color: #401a47;
+    border: 2px solid #000000;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.contacts:before{
+    content: '';
+    position: absolute;
+    background:url(img/sec7/user.png);
+    bottom: 0;
+    right: 12px;
+    width: 100%;
+    max-width: 495px;
+    max-height: 319px;
+    height: 100%;
+    z-index: -1;
+}
+
+.contacts-title{
+    margin-bottom: 60px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.contacts a , .contacts-text{
+    display: inline-block;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 114px;
+    margin-bottom: 51px;
+}
+
+.contacts-text{
+     margin-bottom: 108px;
+    padding-right: 252px;
+}
+
+.contacts a:hover{
+    color: #78f75f;
+}
+
+.messenger{
+    padding-top: 5px;
+    margin-left: 35px;
+}
+
+.wats{
+     margin-left: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
